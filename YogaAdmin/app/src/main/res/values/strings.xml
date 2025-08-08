@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">YogaAdmin</string>
+    <string name="add_yoga_class">Add new yoga class</string>
+    <string name="create_yoga_course">Create Yoga Course</string>
+    <string name="day_of_week">Day of Week</string>
+    <string name="time">Time</string>
+    <string name="price">Price</string>
+    <string name="type">Type</string>
+    <string name="description">Description</string>
+    <string name="add">ADD</string>
+    <string name="clear">CLEAR</string>
+    <string name="yoga_courses">Yoga Courses</string>
+    <string name="capacity">Capacity</string>
+    <string name="duration">Duration (minutes)</string>
+    <string name="difficulty">Difficulty Level</string>
+    <string name="equipment">Required Equipment</string>
+    <string name="required_field">This field is required</string>
+    <string name="confirm_details">Confirm Course Details</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="course_added">Course added successfully</string>
+    <string name="course_updated">Course updated successfully</string>
+    <string name="course_deleted">Course deleted successfully</string>
+    <string name="error_adding_course">Error adding course</string>
+    <string name="error_updating_course">Error updating course</string>
+    <string name="error_deleting_course">Error deleting course</string>
+    <string name="search_hint">Search by teacher name</string>
+    <string name="no_results">No results found</string>
+    <string name="sync_in_progress">Syncing with cloud…</string>
+    <string name="sync_complete">Sync complete</string>
+    <string name="sync_error">Sync error. Please try again.</string>
+    <string name="no_network">No network connection</string>
+    <string name="network_connected">Network connection restored</string>
+    <string name="network_required">Network connection required</string>
+    
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="yoga_types">
+        <item>Flow Yoga</item>
+        <item>Power Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+        <item>Meditation Yoga</item>
+    </string-array>
+
+    <string-array name="class_times">
+        <item>5:00 AM</item>
+        <item>6:00 AM</item>
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+        <item>6:00 PM</item>
+        <item>7:00 PM</item>
+    </string-array>
+
+    <string-array name="difficulty_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>

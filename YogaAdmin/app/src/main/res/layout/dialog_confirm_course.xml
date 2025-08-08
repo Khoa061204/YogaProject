@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/day_of_week"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmDayOfWeek"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/time"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmTime"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/capacity"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmCapacity"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/duration"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmDuration"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/price"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmPrice"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/type"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmType"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/difficulty"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmDifficulty"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="8dp">
+                <TextView
+                    android:text="@string/equipment"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmEquipment"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/description"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/confirmDescription"
+                    android:layout_marginStart="8dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

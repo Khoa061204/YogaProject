@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "968665838490",
+    "firebase_url": "https://yogaadmin-cb81e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yogaadmin-cb81e",
+    "storage_bucket": "yogaadmin-cb81e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968665838490:android:164c3ff29ef748d330c023",
+        "android_client_info": {
+          "package_name": "com.example.yogaadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA69lqJWspnmUfvxpZR3iOrRwJiqPtpUp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

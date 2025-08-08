@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Sync"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_reset_db"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Reset Database"
+        app:showAsAction="never"/>
+</menu>
